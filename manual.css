@@ -1,0 +1,136 @@
+/* =========================================
+   ESTILOS DEL MANUAL DE USUARIO (manual.html)
+   ========================================= */
+
+.role-pills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.pill {
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(24, 13, 41, 0.85);
+  border: 1px solid var(--border-purple);
+  color: var(--purple-soft);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.pill:hover {
+  transform: translateY(-2px);
+  border-color: var(--purple-bright);
+  background: rgba(139, 92, 246, 0.2);
+  color: #fff;
+}
+
+.manual-flow {
+  list-style: none;
+  display: grid;
+  gap: 24px;
+}
+
+.manual-item {
+  display: grid;
+  grid-template-columns: 1.25fr 0.85fr;
+  align-items: center;
+  gap: 28px;
+  background: var(--bg-card-dark);
+  border: 1px solid var(--border-purple);
+  border-left: 4px solid var(--purple-bright);
+  border-radius: 18px;
+  padding: 26px;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.bg-purple-deep .manual-item {
+  background: var(--bg-card-purple);
+}
+
+.manual-item:hover {
+  border-color: var(--purple-bright);
+}
+
+.manual-text h3 {
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 6px 0 10px;
+}
+
+.manual-text p {
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  margin-bottom: 12px;
+}
+
+.manual-text strong {
+  color: var(--purple-soft);
+}
+
+.manual-checklist {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.manual-checklist li {
+  position: relative;
+  padding-left: 20px;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.manual-checklist li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--purple-bright);
+  font-weight: 700;
+}
+
+/* Marco tipo pantalla de celular para los GIFs */
+.gif-frame {
+  background: #09060e;
+  border: 2px solid var(--border-purple);
+  border-radius: 20px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+.gif-frame img {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  aspect-ratio: 9 / 19;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+  margin: 0 auto;
+  background: linear-gradient(145deg, #1b0e30, #0d0716);
+}
+
+.gif-frame figcaption {
+  margin-top: 10px;
+  font-size: 0.82rem;
+  color: var(--purple-soft);
+  font-weight: 600;
+}
+
+/* Responsividad del manual en tablets y móviles */
+@media (max-width: 820px) {
+  .manual-item {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .gif-frame img {
+    max-width: 240px;
+  }
+}

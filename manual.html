@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuario — Vinyl &amp; CD Vault | Guía Completa por Roles</title>
+
+    <!-- SEO Básico -->
+    <meta name="description" content="Manual de usuario oficial de Vinyl & CD Vault para Android. Aprende paso a paso cómo comprar discos, publicar vinilos con cámara nativa, pagar con biometría y administrar el catálogo.">
+    <meta name="keywords" content="Manual de usuario VinylCDVault, guía Vinyl and CD Vault, comprar vinilos Android, vender discos CDs, app e-commerce música">
+    <meta name="author" content="Deiby Julián Ramos Nieto">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#140824">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Manual de Usuario — Vinyl & CD Vault">
+    <meta property="og:description" content="Guía interactiva paso a paso para Compradores, Vendedores y Administradores de Vinyl & CD Vault.">
+    <meta property="og:image" content="ic_vinyl_logo.png">
+
+    <!-- Datos Estructurados SEO (TechArticle) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": "Manual de Usuario Oficial — Vinyl & CD Vault",
+      "description": "Guía paso a paso para operar los módulos de Comprador, Vendedor y Administrador en la aplicación móvil nativa Android Vinyl & CD Vault.",
+      "author": {
+        "@type": "Person",
+        "name": "Deiby Julián Ramos Nieto"
+      },
+      "about": {
+        "@type": "SoftwareApplication",
+        "name": "Vinyl & CD Vault",
+        "operatingSystem": "Android 8.0+"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="manual.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="ic_vinyl_logo.png">
+</head>
+
+<body>
+    <header>
+        <div class="container nav">
+            <a href="index.html" class="logo-brandname" aria-label="Volver al inicio de VinylCDVault">
+                <img src="ic_vinyl_logo.png" alt="Logotipo de disco de vinilo de VinylCDVault" class="logo" width="40" height="40">
+                <span class="brand">VinylCDVault</span>
+            </a>
+            <nav class="nav-links" aria-label="Navegación del manual">
+                <a href="index.html">Inicio</a>
+                <a href="#acceso">Acceso</a>
+                <a href="#comprador">Comprador</a>
+                <a href="#vendedor">Vendedor</a>
+                <a href="#admin">Admin</a>
+            </nav>
+        </div>
+    </header>
+
+    <aside class="promo-bar" aria-label="Índice rápido">
+        <div class="promo-track">
+            MANUAL DE USUARIO OFICIAL &nbsp;⋅&nbsp; SOPORTE ANDROID 8.0+ &nbsp;⋅&nbsp; CATÁLOGO DE VINILOS, CDS Y EPS &nbsp;⋅&nbsp; PROTECCIÓN AL CONSUMIDOR (LEY 1480)
+        </div>
+    </aside>
+
+    <main>
+        <!-- HERO DEL MANUAL (Fondo Morado Cósmico) -->
+        <section class="section-band bg-purple-hero" aria-labelledby="manual-hero-title">
+            <div class="container hero">
+                <span class="badge">Documentación Funcional • Versión 1.0</span>
+                <h1 id="manual-hero-title">Manual de Usuario de Vinyl &amp; CD Vault</h1>
+                <p>
+                    Guía visual paso a paso para operar cada módulo de la aplicación móvil: desde el registro hasta la compra con geolocalización, publicación con cámara y moderación administrativa.
+                </p>
+
+                <!-- Accesos rápidos por rol -->
+                <nav class="role-pills" aria-label="Saltar a sección por rol">
+                    <a href="#acceso" class="pill">01. Registro</a>
+                    <a href="#comprador" class="pill">02. Rol Comprador</a>
+                    <a href="#vendedor" class="pill">03. Rol Vendedor</a>
+                    <a href="#admin" class="pill">04. Rol Administrador</a>
+                    <a href="#garantias" class="pill">05. Seguridad y Derechos</a>
+                </nav>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 1: ACCESO Y SEGURIDAD (Fondo Negro Puro) -->
+        <section id="acceso" class="section-band bg-black" aria-labelledby="acceso-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="card-tag">Módulo 01 • Autenticación</span>
+                    <h2 id="acceso-title" class="section-title">Registro y Inicio de Sesión</h2>
+                    <p class="section-sub">Requisitos previos: dispositivo con Android 8.0 (API 26) o superior y conexión a internet.</p>
+                </div>
+
+                <ol class="manual-flow">
+                    <li class="manual-item">
+                        <div class="manual-text">
+                            <span class="step-num">Paso 1.1</span>
+                            <h3>Creación de cuenta y privacidad</h3>
+                            <p>Al abrir la app por primera vez, selecciona <strong>Create account</strong>. Ingresa tu correo electrónico, contraseña y acepta explícitamente la política de tratamiento de datos personales (cumplimiento Ley 1581 de 2012).</p>
+                            <ul class="manual-checklist">
+                                <li>Puedes configurar tu foto de perfil otorgando el permiso de galería cuando el sistema lo solicite.</li>
+                                <li>Tus credenciales viajan cifradas y tu sesión se protege localmente en el dispositivo.</li>
+                            </ul>
+                        </div>
+                        <figure class="gif-frame">
+                            <img src="gifs/Registro.gif" alt="Demostración animada del registro e inicio de sesión en VinylCDVault" loading="lazy">
+                            <figcaption>GIF: Registro e inicio de sesión</figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="manual-item">
+                        <div class="manual-text">
+                            <span class="step-num">Paso 1.2</span>
+                            <h3>Acceso rápido con Google</h3>
+                            <p>En la pantalla de <strong>Login</strong> puedes ingresar con tu correo/contraseña o usar el botón de <strong>Google Sign-In</strong></p>
+                        </div>
+                        <figure class="gif-frame">
+                            <img src="gifs/google.gif" alt="Demostración animada del acceso" loading="lazy">
+                            <figcaption>GIF: Acceso rápido</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: FLUJO COMPRADOR (Fondo Morado Profundo) -->
+        <section id="comprador" class="section-band bg-purple-deep" aria-labelledby="comprador-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="card-tag">Módulo 02 • Experiencia B2C / C2C</span>
+                    <h2 id="comprador-title" class="section-title">Flujo del Comprador</h2>
+                    <p class="section-sub">Explora el catálogo, arma tu carrito, define tu ubicación en el mapa y paga de forma segura.</p>
+                </div>
+
+                <ol class="manual-flow">
+                    <li class="manual-item">
+                        <div class="manual-text">
+                            <span class="step-num">Paso 2.1</span>
+                            <h3>Exploración de Catálogo y Filtros</h3>
+                            <p>Desde la pantalla principal (<em>Home / Catalog</em>), busca discos por artista, título o sello discográfico. Usa los filtros rápidos navega por géneros como <strong>Rock, Electronic, Indie, Jazz</strong> y Soundtracks.</p>
+                            <ul class="manual-checklist">
+                                <li>Cada tarjeta indica el formato exacto (<em>Vinyl, CD, Casette</em>) y su precio.</li>
+                            </ul>
+                        </div>
+                        <figure class="gif-frame">
+                            <img src="gifs/Filtrado.gif" alt="Demostración animada navegando el catálogo y filtros de vinilos" loading="lazy">
+                            <figcaption>GIF: Búsqueda y filtros en catálogo</figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="manual-item">
+                        <div class="manual-text">
+                            <span class="step-num">Paso 2.2</span>
+                            <h3>Carrito de Compras Persistente</h3>
+                            <p>Agrega uno o varios álbumes al carrito. Desde la pestaña <strong>Cart</strong> puedes aumentar o disminuir unidades, eliminar ítems y revisar el desglose transparente de subtotal, IVA y costos de envío antes de pagar.</p>
+                            <ul class="manual-checklist">
+                                <li>Si pierdes conexión a internet momentáneamente, tu carrito se conserva guardado localmente en tu teléfono.</li>
+                                <li>Toca el ícono de corazón para guardar discos en tu lista de deseos (<em>Wishlist</em>).</li>
+                            </ul>
+                        </div>
+                        <figure class="gif-frame">
+                            <img src="gifs/Carrito.gif" alt="Demostración animada agregando discos y modificando unidades en el carrito" loading="lazy">
+                            <figcaption>GIF: Gestión del carrito de compras</figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="manual-item">
+                        <div class="manual-text">
+                            <span class="step-num">Paso 2.3</span>
+                            <h3>Dirección por Geolocalización y Pago Biométrico</h3>
+                            <p>Al confirmar el pedido, concede el permiso de ubicación para fijar tu dirección exacta de entrega en el mapa. Antes de procesar el pago en la pasarela, la app solicitará tu <strong>huella dactilar</strong> como capa extra de seguridad.</p>
+                            <ul class="manual-checklist">
+                                <li>Recibirás un comprobante digital de tu transacción al instante.</li>
+                                <li>Desde tu perfil de compras dispones del botón de <strong>retracto / cancelación</strong> conforme a la Ley 1480 de 2011.</li>
+                            </ul>
+                        </div>
+                        <figure class="gif-frame">
+                            <img src="gifs/pago.gif" alt="Demostración animada seleccionando ubicación en mapa y confirmando pago con huella" loading="lazy">
+                            <figcaption>GIF: Mapa de entrega y pago biométrico</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: FLUJO VENDEDOR (Fondo Negro Puro) -->
+        <section id="vendedor" class="section-band bg-black" aria-labelledby="vendedor-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="card-tag">Módulo 03 • Publicación y Ventas</span>
+                    <h2 id="vendedor-title" class="section-title">Flujo del Vendedor</h2>
+                    <p class="section-sub">Publica tus vinilos y CDs con evidencia fotográfica real y gestiona las órdenes de tus clientes.</p>
+                </div>
+
+                <ol class="manual-flow">
+                    <li class="manual-item">
+                        <div class="manual-text">
+                            <span class="step-num">Paso 3.1</span>
+                            <h3>Publicar un Disco con Cámara Nativa</h3>
+                            <p>En la barra inferior del vendedor selecciona <strong>Upload</strong>. Completa los campos obligatorios: título del álbum, artista, formato, precio y el grado de conservación (<em>New / Sealed, Near Mint, Very Good Plus</em>).</p>
+                            <ul class="manual-checklist">
+                                <li>Pulsa <strong>Take Photo</strong> para usar la cámara nativa del celular y mostrar el estado real de la carátula o el vinilo (sin reflejos), o usa <strong>Upload from Gallery</strong>.</li>
+                            </ul>
+                        </div>
+                        <figure class="gif-frame">
+                            <img src="gifs/crearproducto.gif" alt="Demostración animada publicando un disco con cámara desde el perfil vendedor" loading="lazy">
+                            <figcaption>GIF: Publicación con cámara nativa</figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="manual-item">
+                        <div class="manual-text">
+                            <span class="step-num">Paso 3.2</span>
+                            <h3>Control de Inventario y Pedidos</h3>
+                            <p>Desde <strong>Productos</strong> puedes editar precios, actualizar el stock o retirar publicaciones. En la pestaña <strong>Pedidos</strong> visualizas las compras recibidas para preparar y despachar cada disco.</p>
+                        </div>
+                        <figure class="gif-frame">
+                            <img src="gifs/Pedidos.gif" alt="Demostración animada gestionando inventario y pedidos del vendedor" loading="lazy">
+                            <figcaption>GIF: Gestión de productos y pedidos</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: FLUJO ADMINISTRADOR (Fondo Morado Profundo) -->
+        <section id="admin" class="section-band bg-purple-deep" aria-labelledby="admin-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="card-tag">Módulo 04 • Control y Moderación</span>
+                    <h2 id="admin-title" class="section-title">Flujo del Administrador</h2>
+                    <p class="section-sub">Supervisión de métricas en tiempo real, control de roles y moderación del catálogo.</p>
+                </div>
+
+                <ol class="manual-flow">
+                    <li class="manual-item">
+                        <div class="manual-text">
+                            <span class="step-num">Paso 4.1</span>
+                            <h3>Panel de Estadísticas (Dashboard)</h3>
+                            <p>Al iniciar sesión como Administrador accedes al resumen operativo: total de usuarios registrados, discos publicados, ventas del mes, pedidos pendientes de envío, pedidos despachados, usuarios suspendidos y productos sin fotografía.</p>
+                        </div>
+                        <figure class="gif-frame">
+                            <img src="gifs/dashboard.png" alt="Demostración animada del dashboard de estadísticas del administrador" loading="lazy">
+                            <figcaption>IMG: Dashboard y métricas en tiempo real</figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="manual-item">
+                        <div class="manual-text">
+                            <span class="step-num">Paso 4.2</span>
+                            <h3>Gestión de Usuarios y Moderación</h3>
+                            <p>Desde las pestañas inferiores del panel administrativo puedes buscar cuentas por nombre, correo o rol, asignar permisos (<em>Comprador, Vendedor, Administrador</em>) y suspender o reactivar usuarios que incumplan las normas de la plataforma.</p>
+                        </div>
+                        <figure class="gif-frame">
+                            <img src="gifs/Administracion de usuarios.gif" alt="Demostración animada gestionando roles y estados de usuarios" loading="lazy">
+                            <figcaption>GIF: Control de roles y moderación</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 5: SEGURIDAD, PERMISOS Y MARCO LEGAL (Fondo Negro Puro) -->
+        <section id="garantias" class="section-band bg-black" aria-labelledby="garantias-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="card-tag">Respaldo y Normatividad</span>
+                    <h2 id="garantias-title" class="section-title">Permisos del Sistema y Protección al Usuario</h2>
+                    <p class="section-sub">Resumen de los permisos nativos que utiliza la app y las garantías aplicadas en Colombia.</p>
+                </div>
+
+                <div class="grid">
+                    <article class="card">
+                        <span class="card-tag">Permiso Android</span>
+                        <h3>Cámara y Galería</h3>
+                        <p>Se solicita únicamente al subir fotos de perfil o capturar evidencia física de los vinilos y CDs en venta.</p>
+                    </article>
+                    <article class="card">
+                        <span class="card-tag">Permiso Android</span>
+                        <h3>Ubicación Precisa</h3>
+                        <p>Utilizado exclusivamente durante el checkout para fijar la dirección de entrega en el mapa con coordenadas exactas.</p>
+                    </article>
+                    <article class="card">
+                        <span class="card-tag">Normatividad</span>
+                        <h3>Seguridad y Retracto</h3>
+                        <p>Validación biométrica antes del pago (Circular 006 SIC), cifrado de datos (Ley 1581) y botón de retracto en compras (Ley 1480).</p>
+                    </article>
+                </div>
+
+                <div class="install-box" style="margin-top: 36px;">
+                    <div>
+                        <h3 class="section-title" style="margin-bottom: 6px; font-size: 1.4rem;">¿Listo para probar la aplicación?</h3>
+                        <p style="color: var(--text-muted);">Regresa a la página principal para descargar el instalador APK o revisar los detalles del proyecto.</p>
+                    </div>
+                    <div class="actions">
+                        <a href="index.html#instalar" class="btn btn-primary">Ir a descargar APK</a>
+                        <a href="index.html" class="btn btn-secondary">Volver al inicio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><strong>Vinyl &amp; CD Vault</strong> — Manual de Usuario • Desarrollado por Deiby Julián Ramos Nieto.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
